@@ -1,51 +1,51 @@
 module.exports = {
 	/* The token of your Discord Bot */
-	token: "XXXXXXXXXXX",
+	token: "NjgxMzkyNjI5ODg3NTMzMDc5.XlNyVg.dzy5twnYO92ZU7kuDYhZdseN4Gg",
 	/* For the support server */
 	support: {
-		id: "XXXXXXXXXXX", // The ID of the support server
-		logs: "XXXXXXXXXXX", // And the ID of the logs channel of your server (new servers for example)
+		id: "694449297122394162", // The ID of the support server
+		logs: "703152502350151712", // And the ID of the logs channel of your server (new servers for example)
 	},
 	/* Dashboard configuration */
 	dashboard: {
 		enabled: false, // whether the dashboard is enabled or not
-		secret: "XXXXXXXXXXX", // Your discord client secret
+		secret: "681392629887533079", // Your discord client secret
 		baseURL: "https://dashboard.atlanta-bot.fr", // The base URl of the dashboard
-		logs: "XXXXXXXXXXX", // The channel ID of logs
+		logs: "702771293602185316", // The channel ID of logs
 		port: 8080, // Dashboard port
-		expressSessionPassword: "XXXXXXXXXXX", // Express session password (it can be what you want)
+		expressSessionPassword: "AAA", // Express session password (it can be what you want)
 		failureURL: "https://www.atlanta-bot.fr" // url on which users will be redirected if they click the cancel button (discord authentication)
 	},
-	mongoDB: "mongodb://localhost:27017/AtlantaBot", // The URl of the mongodb database
+	mongoDB: "mongodb://localhost:27017/GxDEMO11", // The URl of the mongodb database
 	prefix: "*", // The default prefix for the bot
 	/* For the embeds (embeded messages) */
 	embed: {
 		color: "#0091fc", // The default color for the embeds
-		footer: "Atlanta | Open Source" // And the default footer for the embeds
+		footer: "DEMO | Open Source" // And the default footer for the embeds
 	},
 	/* Bot's owner informations */
 	owner: {
-		id: "XXXXXXXXXXX", // The ID of the bot's owner
-		name: "Androz#2091" // And the name of the bot's owner
+		id: "613900037872812055", // The ID of the bot's owner
+		name: "DEMO#8471" // And the name of the bot's owner
 	},
 	/* DBL votes webhook (optional) */
 	votes: {
 		port: 5000, // The port for the server
-		password: "XXXXXXXXXXX", // The webhook auth that you have defined on discordbots.org
+		password: "AAA", // The webhook auth that you have defined on discordbots.org
 		channel: "XXXXXXXXXXX" // The ID of the channel that in you want the votes logs
 	},
 	/* The API keys that are required for certain commands */
 	apiKeys: {
 		// BLAGUE.XYZ: https://blague.xyz/
-		blagueXYZ: "XXXXXXXXXXX",
+		blagueXYZ: "https://blague.xyz/",
 		// FORTNITE TRN: https://fortnitetracker.com/site-api
-		fortniteTRN: "XXXXXXXXXXX",
+		fortniteTRN: "https://fortnitetracker.com/site-api",
 		// FORTNITE FNBR: https://fnbr.co/api/docs
-		fortniteFNBR: "XXXXXXXXXXX",
+		fortniteFNBR: "https://fnbr.co/api/docs",
 		// DBL: https://discordbots.org/api/docs#mybots
-		dbl: "XXXXXXXXXXX",
+		dbl: "https://discordbots.org/api/docs#mybots",
 		// AMETHYSTE: https://api.amethyste.moe
-		amethyste: "XXXXXXXXXXX",
+		amethyste: " https://api.amethyste.moe",
 		// SENTRY: https://sentry.io (this is not required and not recommended - you can delete the field)
 		sentryDSN: "XXXXXXXXXXX"
 	},
